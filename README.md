@@ -23,7 +23,3 @@ All hosts, accounts, addresses and events in this repository belong to an author
 - Building and refining SPL/KQL searches
 - Separating observations from interpretations and identifying telemetry gaps
 - Documenting findings, response considerations and investigative limitations
-
-## Publication notes
-
-This portfolio was prepared from original lab screenshots. **Inspect every screenshot and file before making the repository public.** Do not upload real passwords, authentication tokens, API keys, identifiable user information or company data. Do not present lab activities as professional incident-response experience.
