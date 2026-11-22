@@ -1,0 +1,14 @@
+# Exclude common secrets, local state, and system clutter
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.kdbx
+*token*
+*password*
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
