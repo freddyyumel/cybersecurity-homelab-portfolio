@@ -1,0 +1,3 @@
+index=windows host="DC01" source="XmlWinEventLog:Security" EventCode=4729
+| table _time EventCode TargetDomainName TargetUserName SubjectUserName member_user_name
+| sort -_time

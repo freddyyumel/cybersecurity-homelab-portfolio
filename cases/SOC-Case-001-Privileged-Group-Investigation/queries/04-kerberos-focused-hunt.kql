@@ -1,0 +1,9 @@
+SecurityEvent
+| where TimeGenerated between (
+    datetime(2026-10-29 11:00:00) ..
+    datetime(2026-10-29 11:30:00)
+)
+| where EventID in (4771, 4768, 4624)
+| where TargetAccount contains "sentinel.test"
+| project TimeGenerated, Computer, EventID, TargetAccount, IpAddress
+| order by TimeGenerated asc
